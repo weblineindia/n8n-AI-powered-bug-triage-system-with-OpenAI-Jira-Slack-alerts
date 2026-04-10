@@ -6,7 +6,7 @@ This workflow ingests bug reports via a webhook, uses OpenAI to triage and tag t
 
 ## Quick Start – Implement in 60 Seconds
 
-1. Import the workflow JSON into your n8n instance.
+1. Import the workflow JSON into your [n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi).
 2. Add credentials for **OpenAI**, **Jira**, and **Slack**.
 3. Set the webhook path (`bug-suspicion`) in the Webhook Trigger node.
 4. Configure your Slack channels (e.g., `qa-alerts-high`, `qa-general`).
@@ -37,7 +37,7 @@ This workflow ingests bug reports via a webhook, uses OpenAI to triage and tag t
 
 ## Requirements
 
-- n8n (cloud or self-hosted) instance.
+- [n8n account](https://n8n.partnerlinks.io/om1efg2qgvwi) (cloud or self-hosted) instance.
 - **OpenAI API key** for AI analysis.
 - **Jira credentials** with permission to create issues in your project.
 - **Slack bot token** with `chat:write` permissions.
